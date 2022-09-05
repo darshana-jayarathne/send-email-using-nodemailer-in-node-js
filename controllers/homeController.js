@@ -20,8 +20,8 @@ module.exports.sentEmail = (req, res) => {
 
         const mailoptions = {
 
-            to: to,
-            from: from,
+            to: //receiver's email,
+            from: //sender's email,
             html: body,
             subject: subject
         }
